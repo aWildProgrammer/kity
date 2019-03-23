@@ -11,6 +11,8 @@ php.ini文件引入examples.so
 ```
 
 ```php
+
+##### PHP调用示例
 <?php
 
 /**
@@ -189,6 +191,9 @@ $buf = $db -> getLastByBytesPrefix('t');
 
 print_r($buf);
 ```
+
+##### Go语言部分核心实现代码
+
 ```go
 package main
 
