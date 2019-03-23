@@ -21,7 +21,6 @@ class Demo {
 
     /**
      * @path leveldb的数据保存路径
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T02:06:04+0800
      */
     public function __construct($path = '') {
@@ -37,7 +36,6 @@ class Demo {
 
     /**
      * $k/$v 仅接受字符串类型
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T02:06:22+0800
      */
     public function set($k, $v) {
@@ -50,7 +48,6 @@ class Demo {
 
     /**
      * 通过获取byte形式自主转换
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T02:06:29+0800
      */
     public function get($k) {
@@ -63,7 +60,6 @@ class Demo {
 
     /**
      * 内部转换后输出
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T03:28:18+0800
      */
     public function getString($k) {
@@ -89,7 +85,6 @@ class Demo {
     /**
      * 根据键值模糊查询 批量返回byte数据
      * $limit 限定返回条数
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T03:29:46+0800
      */
     public function getIteratorByte($k, $limit = 10) {
@@ -99,7 +94,6 @@ class Demo {
 
     /**
      * 根据键值模糊查询 批量返回字符串数据
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T03:31:30+0800
      */
     public function newIterator($k, $limit = 10) {
@@ -114,7 +108,6 @@ class Demo {
 
     /**
      * 根据key前缀查询
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T03:49:12+0800
      */
     public function getLastByBytesPrefix($k, $limit = 10) {
@@ -129,7 +122,6 @@ class Demo {
 
     /**
      * 批量取出数据转换为字符串
-     * @Author   Mr.Q
      * @DateTime 2019-03-24T03:53:48+0800
      */
     private static function iteratorLoop($buf, $len, &$list) {
