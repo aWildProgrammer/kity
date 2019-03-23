@@ -157,7 +157,7 @@ class Demo {
     }
 
     /**
-     * 设置布隆过滤器加快leveldb查询速度 官方评测 速度提升大约1000倍
+     * 设置布隆过滤器加快leveldb查询速度 速度提升1000多倍
      * 但由于布隆过滤器会出现一定误差 需要结合实际场景运用
      */
     /*public function setBloomFilter($num = 10) {
