@@ -17,6 +17,7 @@ $db -> getString('test');
 
 // $db -> del('test');
 
+// 循环查找
 $buf = $db -> getLastByBytesPrefix('t');
 
 print_r($buf);
