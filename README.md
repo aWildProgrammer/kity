@@ -126,7 +126,7 @@ class Demo {
         while (self::iteratorLoop($buf, $len, $list));
         return $list;
     }
-
+ 
     /**
      * 根据key前缀查询
      * @Author   Mr.Q
