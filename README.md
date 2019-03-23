@@ -87,7 +87,7 @@ class Demo {
         return $this -> kv -> Del($k);
     }
 
-    // 将go语言输出的 []uint8 类型(byte类型)转为字符串
+    // 处理 []uint8 类型(byte类型)
     private static function byte2str($buf) {
 
         $str = '';
